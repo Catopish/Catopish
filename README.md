@@ -3,7 +3,7 @@ Welcome to my GitHub repository! I'm Atila, a full-stack developer with a strong
 ## 🔧 Tech Stack & Tools
 
 - **Frontend:** React, TypeScript, HTML, CSS, JavaScript
-- **Backend:** Express.js, NestJS, RESTful APIs
+- **Backend:** Express.js, NestJS, Laravel(Still learning tho)
 - **Databases:** PostgreSQL, MariaDB
 - **Version Control:** Git, GitHub
 - **Deployment:** Vercel
