@@ -19,7 +19,7 @@ Welcome to my GitHub repository! I'm Atila, a full-stack developer with a strong
 
 As a Linux enthusiast, I’ve spent a lot of time perfecting my development environment. My daily driver is Arch Linux, where I enjoy the simplicity and control it offers. I’m also a recently tried NixOS for its declarative approach to system configuration.
 
-### Neovim Configuration
+### 💤 Neovim Configuration
 
 I’ve configured Neovim to enhance my productivity based on [LazyVim](https://github.com/LazyVim/LazyVim):
 Check out my [dotfiles](https://github.com/Catopish/lazyvim.git) for a detailed look at my Neovim setup.
