@@ -17,7 +17,7 @@ Welcome to my GitHub repository! I'm Atila, a full-stack developer with a strong
 
 ## 🛠 My Linux & Neovim Setup
 
-As a Linux enthusiast, I’ve spent a lot of time perfecting my development environment. My daily driver is Arch Linux, where I enjoy the simplicity and control it offers. I’m also a recently tried NixOS for its declarative approach to system configuration.
+As a Linux enthusiast, I’ve spent a lot of time perfecting my development environment. My daily driver is Arch Linux, where I enjoy the simplicity and control it offers. I’m also recently tried NixOS for its declarative approach to system configuration.
 
 ### 💤 Neovim Configuration
 
