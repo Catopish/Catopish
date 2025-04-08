@@ -2,13 +2,13 @@ Welcome to my GitHub repository! I'm Atila, a full-stack developer with a strong
 
 ## 🔧 Tech Stack & Tools
 
-- **Frontend:** React, TypeScript, HTML, CSS, JavaScript
+- **Frontend:** React, TypeScript, HTML, CSS, JavaScript, SwiftUI
 - **Backend:** Express.js, NestJS, Laravel(Still learning tho)
 - **Databases:** PostgreSQL, MariaDB
 - **Version Control:** Git, GitHub
 - **Deployment:** Vercel
 - **Text Editor:** Neovim, configured with custom plugins and themes
-- **Operating Systems:** Arch Linux, NixOS ([flakes & dotfiles](https://github.com/Catopish/flakexixixi.git))
+- **Operating Systems:** Arch Linux, NixOS ([flakes & dotfiles](https://github.com/Catopish/flakexixixi.git)), MacOs
 - **Package Managers:** pnpm, nix
 
 ## 💻 Projects
