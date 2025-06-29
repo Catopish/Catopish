@@ -16,11 +16,11 @@
  ╭─ ~/dev/life ─────────────────────────────────────────────────────────╮
  │                                                                      │
  │  > whoami                                                            │
- │  atila: full-stack developer, architect of digital experiences       │
+ │  catopish: full-stack developer, architect of digital experiences    │
  │                                                                      │
  │  > cat passion.txt                                                   │
- │  Building robust applications with seamless UX                      │
- │  Crafting elegant code in my perfectly tuned Neovim setup          │
+ │  Building robust applications with seamless UX                       │
+ │  Crafting elegant code in my perfectly tuned Neovim setup            │
  │                                                                      │
  ╰──────────────────────────────────────────────────────────────────────╯
 ```
@@ -35,11 +35,10 @@
 
 function! GetTechStack()
   return {
-    \ 'frontend': ['React', 'TypeScript', 'HTML', 'CSS', 'JavaScript', 'SwiftUI'],
+    \ 'frontend': ['React', 'TypeScript', 'JavaScript', 'SwiftUI'],
     \ 'backend': ['Express.js', 'NestJS', 'Laravel'],
-    \ 'databases': ['PostgreSQL', 'MariaDB'],
-    \ 'tools': ['Git', 'GitHub', 'Vercel', 'pnpm', 'nix'],
-    \ 'editor': 'Neovim ❤️',
+    \ 'tools': ['Git', 'GitHub', 'nix'],
+    \ 'editor': 'Neovim',
     \ 'os': ['Arch Linux', 'NixOS', 'macOS']
     \ }
 endfunction
@@ -50,12 +49,12 @@ endfunction
 ```bash
 ╭─ System Configuration ─────────────────────────────────────────╮
 │                                                                │
-│  OS           │  Arch Linux (daily) | NixOS (experimenting)   │
-│  Shell        │  zsh with custom prompt                       │
-│  Terminal     │  Alacritty / WezTerm                          │
-│  Editor       │  Neovim (LazyVim based config)               │
-│  WM           │  i3 / Hyprland                                │
-│  Dotfiles     │  ~/.config/everything → github.com/me        │
+│  OS           │  Arch Linux (daily) | NixOS (experimenting)    │
+│  Shell        │  zsh                                           │
+│  Terminal     │  Kitty                                         │
+│  Editor       │  Neovim (LazyVim based config)                 │
+│  WM           │  bspwm / Hyprland                              │
+│  Dotfiles     │  github.com/catopish/dotfiles                  │
 │                                                                │
 ╰────────────────────────────────────────────────────────────────╯
 ```
@@ -66,7 +65,7 @@ endfunction
   🔍 Searching workspace...
   
   ./current_projects/
-  ├── 🚧 [WIP] Next.js Dashboard
+  ├── ✅ [Coffice]
   ├── 🚧 [WIP] React Native Mobile App  
   ├── 🚧 [WIP] NestJS API Gateway
   └── 🚧 [WIP] Laravel Learning Journey
