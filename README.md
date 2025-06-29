@@ -9,8 +9,8 @@
 
 <div align="center">
 
-**~ Atila ~**  
-*Full-Stack Developer | Linux Enthusiast | Neovim Devotee*
+**~ Al / Catopish ~**  
+*iOS Developer | DevOps Engineer | Linux Enthusiast | Neovim Devotee*
 
 ```
  ╭─ ~/dev/life ─────────────────────────────────────────────────────────╮
