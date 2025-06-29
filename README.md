@@ -1,16 +1,16 @@
 ```
-██╗  ██╗███████╗██╗     ██╗      ██████╗     ██╗    ██╗ ██████╗ ██████╗ ██╗     ██████╗ 
+██╗  ██╗███████╗██╗     ██╗      ██████╗     ██╗    ██╗ ██████╗ ██████╗ ██╗     ██████╗
 ██║  ██║██╔════╝██║     ██║     ██╔═══██╗    ██║    ██║██╔═══██╗██╔══██╗██║     ██╔══██╗
 ███████║█████╗  ██║     ██║     ██║   ██║    ██║ █╗ ██║██║   ██║██████╔╝██║     ██║  ██║
 ██╔══██║██╔══╝  ██║     ██║     ██║   ██║    ██║███╗██║██║   ██║██╔══██╗██║     ██║  ██║
 ██║  ██║███████╗███████╗███████╗╚██████╔╝    ╚███╔███╔╝╚██████╔╝██║  ██║███████╗██████╔╝
-╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝      ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═════╝ 
+╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝      ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═════╝
 ```
 
 <div align="center">
 
 **~ Al / Catopish ~**  
-*iOS Developer | DevOps Engineer | Linux Enthusiast | Neovim Devotee*
+_iOS Developer | DevOps Engineer | Linux Enthusiast | Neovim Devotee_
 
 ```
  ╭─ ~/dev/life ─────────────────────────────────────────────────────────╮
@@ -21,6 +21,7 @@
  │  > cat passion.txt                                                   │
  │  Building robust applications with seamless UX                       │
  │  Crafting elegant code in my perfectly tuned Neovim setup            │
+ │  Orchestrating infrastructure and automating deployments             │
  │                                                                      │
  ╰──────────────────────────────────────────────────────────────────────╯
 ```
@@ -39,7 +40,9 @@ function! GetTechStack()
     \ 'backend': ['Express.js', 'NestJS', 'Laravel'],
     \ 'tools': ['Git', 'GitHub', 'nix'],
     \ 'editor': 'Neovim',
-    \ 'os': ['Arch Linux', 'NixOS', 'macOS']
+    \ 'os': ['Arch Linux', 'NixOS', 'macOS', 'Proxmox']
+    \ 'devops': ['Docker', 'GitHub Actions', 'Ansible'],
+    \ 'networking': ['MikroTik RouterOS', 'Basic Networking'],
     \ }
 endfunction
 ```
@@ -63,16 +66,15 @@ endfunction
 
 ```
   🔍 Searching workspace...
-  
+
   ./current_projects/
-  ├── ✅ [Coffice]
-  ├── 🚧 [WIP] React Native Mobile App  
-  ├── 🚧 [WIP] NestJS API Gateway
-  └── 🚧 [WIP] Laravel Learning Journey
-  
+  ├── ✅ [Coffice](https://github.com/Catopish/coffice.git) ~ Gonna help you find the nearest coffeeshop in Green Office Park made using Apple Native Frameworks
+  ├── ✅ [KakaSIBI](https://github.com/Catopish/KakaSIBI.git) ~ Need to learn Indonesia Sign Language? We got you covered! help by ML model created by Apple CreateML
+  ├── ✅ [SimpleTaskManagement](https://github.com/Catopish/TaskManagement.git) ~ Fullstack web development portofolio using ReactJS, NestJS and SupaBase
+
   ./dotfiles/
-  ├── 📝 lazyvim/ → Custom Neovim configuration
-  ├── 🏠 flakexixixi/ → NixOS system configuration
+  ├── 📝 [neovim](https://github.com/Catopish/LazyVim.git)/ → Custom Neovim configuration
+  ├── 🏠 [flakexixixi](https://github.com/Catopish/flakexixixi.git)/ → NixOS system configuration
   └── ⚙️  Various shell configs and themes
 ```
 
@@ -84,7 +86,7 @@ endfunction
 -- My development stack, configured with love
 local stack = {
   languages = {
-    "TypeScript", "JavaScript", "Swift", "PHP", "Lua", "Nix"
+    "TypeScript", "JavaScript", "Swift", "PHP", "Lua", "Nix", "YAML"
   },
   frameworks = {
     "React ⚛️", "Express 🚀", "NestJS 🐱", "SwiftUI 📱"
@@ -92,9 +94,9 @@ local stack = {
   databases = {
     "PostgreSQL 🐘", "MariaDB 🗄️"
   },
-  deployment = {
-    "Vercel ▲", "Docker 🐳"
-  }
+  devops = {
+    "Docker 🐳", "Ansible 🔧", "GitHub Actions ⚡", "Proxmox 🖥️"
+  },
 }
 ```
 
@@ -102,12 +104,13 @@ local stack = {
 
 ## 🌟 `:source ~/.vimrc` - My Neovim Philosophy
 
-> *"Neovim isn't just an editor, it's a way of thinking about efficiency, 
-> customization, and the pure joy of crafting the perfect development environment."*
+> _"Neovim isn't just an editor, it's a way of thinking about efficiency,
+> customization, and the pure joy of crafting the perfect development environment."_
 
-### Key Features of My Setup:
+### Key Features of My Setup
+
 - **🚀 LazyVim** - Lightning fast startup with lazy loading
-- **🎨 Custom Colorscheme** - Easy on the eyes, optimized for long coding sessions  
+- **🎨 Custom Colorscheme** - Easy on the eyes, optimized for long coding sessions
 - **⌨️ Modal Efficiency** - Muscle memory trained for maximum productivity
 - **🔌 Plugin Ecosystem** - Carefully curated plugins for full-stack development
 - **📂 Project Management** - Seamless navigation between multiple codebases
@@ -122,9 +125,9 @@ Currently rocking **Arch Linux** as my daily driver with a growing fascination f
 # My NixOS exploration
 {
   system = "reproducible-perfection";
-  dotfiles = "declarative-configuration";  
+  dotfiles = "declarative-configuration";
   learning = "functional-package-management";
-  
+
   # Check out my flakes!
   flakes = "github:Catopish/flakexixixi";
 }
@@ -138,9 +141,12 @@ Currently rocking **Arch Linux** as my daily driver with a growing fascination f
   "email": "gelato-06tapioca@icloud.com",
   "interests": [
     "full-stack development",
-    "linux customization", 
+    "devops & sre practices",
+    "infrastructure automation",
+    "linux customization",
     "neovim configuration",
     "system architecture",
+    "networking & security",
     "open source"
   ],
   "current_mode": "learning && building",
@@ -163,6 +169,6 @@ Currently rocking **Arch Linux** as my daily driver with a growing fascination f
 ╰─────────────────────────────────────────────────────╯
 ```
 
-*Built with ❤️ in Neovim*
+_Built with ❤️ in Neovim_
 
 </div>
