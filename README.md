@@ -68,9 +68,9 @@ endfunction
   🔍 Searching workspace...
 
   ./current_projects/
-  ├── ✅ [Coffice](https://github.com/Catopish/coffice.git) ~ Gonna help you find the nearest coffeeshop in Green Office Park made using Apple Native Frameworks
-  ├── ✅ [KakaSIBI](https://github.com/Catopish/KakaSIBI.git) ~ Need to learn Indonesia Sign Language? We got you covered! help by ML model created by Apple CreateML
-  ├── ✅ [SimpleTaskManagement](https://github.com/Catopish/TaskManagement.git) ~ Fullstack web development portofolio using ReactJS, NestJS and SupaBase
+  ├── ✅ Coffice ~ Gonna help you find the nearest coffeeshop in Green Office Park made using Apple Native Frameworks
+  ├── ✅ KakaSIBI ~ Need to learn Indonesia Sign Language? We got you covered! help by ML model created by Apple CreateML
+  ├── ✅ SimpleTaskManagement ~ Fullstack web development portofolio using ReactJS, NestJS and SupaBase
 
   ./dotfiles/
   ├── 📝 [neovim](https://github.com/Catopish/LazyVim.git)/ → Custom Neovim configuration
@@ -80,7 +80,7 @@ endfunction
 
 ## 🔧 `:PluginManager` - Development Arsenal
 
-<div align="center">
+<div>
 
 ```lua
 -- My development stack, configured with love
